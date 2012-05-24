@@ -25,7 +25,7 @@ describe('Carbon Logger', function () {
     logger.start();
 
     proxy = carbon.listen(http1);
-    proxy.use(logger.middleware());
+    proxy.use(logger.middleware);
     proxy.use(function (req, res, next) {
       next(5005);
     });
