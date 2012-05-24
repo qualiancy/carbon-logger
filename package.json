@@ -15,7 +15,8 @@
     "quantum": "0.2.x"
   },
   "devDependencies": {
-      "mocha": "*"
+      "carbon": "0.3.x"
+    , "mocha": "*"
     , "chai": "*"
     , "chai-spies": "*"
   },
