@@ -16,6 +16,12 @@ logging and JSON file support. It has many other transports available such as
 database support or network transports for multiple service log aggregation.
 You can learn more about it at [qualiancy/quantum](https://github.com/qualiancy/quantum).
 
+## Installation
+
+Carbon Logger middleware is available for installation from npm.
+
+    $ npm install carbon-logger
+
 ## Usage
 
 To get started, create a new carbon proxy and mount the logging middleware before
