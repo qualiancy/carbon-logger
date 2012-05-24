@@ -1,0 +1,26 @@
+{
+  "author": "Jake Luer <jake@qualiancy.com> (http://qualiancy.com)",
+  "name": "carbon-logger",
+  "description": "Quantum based logger for Carbon proxy.",
+  "version": "0.0.0",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/qualiancy/carbon-logger.git"
+  },
+  "main": "./index",
+  "scripts": {
+    "test": "make test"
+  },
+  "dependencies": {
+    "quantum": "0.2.x"
+  },
+  "devDependencies": {
+      "mocha": "*"
+    , "chai": "*"
+    , "chai-spies": "*"
+  },
+  "optionalDependencies": {},
+  "engines": {
+    "node": "*"
+  }
+}
