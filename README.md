@@ -1,3 +1,4 @@
+[![build status](https://secure.travis-ci.org/qualiancy/carbon-logger.png)](http://travis-ci.org/qualiancy/carbon-logger)
 # Carbon Logger
 
 > Logging middleware for Carbon proxy/balancer.
