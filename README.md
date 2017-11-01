@@ -49,7 +49,7 @@ proxy
 
 ## Tests
 
-Tests are written in the BDD styles for the [Mocha](http://visionmedia.github.com/mocha) test runner using the
+Tests are written in the BDD styles for the [Mocha](http://mochajs.org/) test runner using the
 `should` assertion interface from [Chai](http://chaijs.com). Running tests is simple:
 
     $ make test
